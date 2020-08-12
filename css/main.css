@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: italic;
+    src: url("../fonts/Ubuntu/Ubuntu-MediumItalic.ttf");
+}
+
+@font-face {
+    font-family: 'B612';
+    src: url("../fonts/B612/B612-Regular.ttf");
+}
+
+#intro {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#info {
+    font-family: 'B612', sans-serif;    
+}
+
+#photos img {
+    width: 100%
+}
