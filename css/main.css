@@ -1,22 +1,60 @@
 @font-face {
     font-family: 'Ubuntu';
-    font-style: italic;
-    src: url("../fonts/Ubuntu/Ubuntu-MediumItalic.ttf");
+    src: url("../fonts/Ubuntu/Ubuntu-Medium.ttf");
 }
 
 @font-face {
-    font-family: 'B612';
-    src: url("../fonts/B612/B612-Regular.ttf");
+    font-family: 'Roboto';
+    src: url("../fonts/Roboto/Roboto-Light.ttf");
+}
+
+body {  
+    margin-left: 15%;
+    margin-top: 2%;
+    margin-right: 15%;
+    margin-bottom: 2%;
 }
 
 #intro {
     font-family: 'Ubuntu', sans-serif;
 }
 
+#name {
+    font-size: 28px;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    opacity: 75%;
+}
+
+#icons img {
+    height: 28px;
+    padding-left: 6px;
+}
+#icons a:hover {
+    text-decoration: none;
+}
+
 #info {
-    font-family: 'B612', sans-serif;    
+    font-family: "Roboto", sans-serif;  
+    font-size: 20px;  
+}
+
+#photos {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 0.5fr);
+    grid-auto-rows: 400px;    
 }
 
 #photos img {
-    width: 100%
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 1px;
+    border: 3.5px solid #eee;
 }
