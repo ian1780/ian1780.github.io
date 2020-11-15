@@ -2,7 +2,6 @@
     font-family: 'Ubuntu';
     src: url("../fonts/Ubuntu/Ubuntu-Medium.ttf");
 }
-
 @font-face {
     font-family: 'Roboto';
     src: url("../fonts/Roboto/Roboto-Light.ttf");
@@ -15,12 +14,20 @@ body {
     margin-bottom: 2%;
 }
 
-#intro {
-    font-family: 'Ubuntu', sans-serif;
+#tab {
+    display: inline;
 }
-
-#name {
-    font-size: 28px;
+#name h1 {
+    font-size: 55px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 2%;
+    margin-bottom: 0%;
+}
+#navigation a {
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    float: right;
+    margin-right: 15px;
 }
 
 a {
@@ -32,8 +39,8 @@ a:hover {
 }
 
 #icons img {
-    height: 28px;
-    padding-left: 6px;
+    height: 25px;
+    padding-left: 10px;
 }
 #icons a:hover {
     text-decoration: none;
