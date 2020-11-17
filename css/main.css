@@ -7,38 +7,24 @@
     src: url("../fonts/Roboto/Roboto-Light.ttf");
 }
 
-body {  
-    margin-left: 15%;
-    margin-top: 2%;
-    margin-right: 15%;
-    margin-bottom: 2%;
+body {
+    min-height: 100%;
+    overflow: scroll;
+    margin: 0;
 }
 
-#tab {
-    display: inline;
-}
-#name h1 {
-    font-size: 55px;
-    font-family: 'Ubuntu', sans-serif;
-    margin-top: 2%;
+#nav-col {
+    background-color: #D6EFFF;
+    height: 40px;
     margin-bottom: 0%;
-}
-#navigation a {
-    font-size: 25px;
-    font-family: 'Ubuntu', sans-serif;
-    float: right;
-    margin-right: 15px;
+    display: flex;
 }
 
-a {
-    text-decoration: none;
+#icons {
+    margin-left: 15%;
 }
-a:hover {
-    text-decoration: underline;
-    opacity: 75%;
-}
-
 #icons img {
+    margin-top: 2.5%;
     height: 25px;
     padding-left: 10px;
 }
@@ -46,7 +32,55 @@ a:hover {
     text-decoration: none;
 }
 
+#navigation {
+    margin-top: 0.2%;
+    margin-left: auto;
+    margin-right: 15%;
+}
+#navigation a {
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-right: 10px;
+}
+
+#content {  
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+}
+
+#name-col {
+    background-color: #8AAFD0;
+}
+
+#name h1 {
+    font-size: 55px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+}
+p:visited {
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+    opacity: 75%;
+}
+
 #info {
+    font-family: "Roboto", sans-serif;  
+    font-size: 20px;  
+}
+#projects {
     font-family: "Roboto", sans-serif;  
     font-size: 20px;  
 }
