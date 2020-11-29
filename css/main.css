@@ -3,17 +3,28 @@
     src: url("../fonts/Ubuntu/Ubuntu-Medium.ttf");
 }
 @font-face {
-    font-family: 'Roboto';
-    src: url("../fonts/Roboto/Roboto-Light.ttf");
+    font-family: 'Ubuntu-Regular';
+    src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto_Mono';
+    src: url("../fonts/Roboto_Mono/static/RobotoMono-Light.ttf");
 }
 @font-face {
-    font-family: 'Roboto-Bold';
-    src: url("../fonts/Roboto/Roboto-Medium.ttf");
+    font-family: 'Roboto_Mono_Regular';
+    src: url("../fonts/Roboto_Mono/static/RobotoMono-Regular.ttf");
+}
+
+
+html {
+    overflow: hidden;
+    height: 100%;
 }
 
 body {
-    min-height: 100%;
-    overflow: scroll;
+    height: 100%;
+    overflow: auto;
     margin: 0;
 }
 
@@ -39,7 +50,7 @@ body {
 }
 #navigation a {
     font-size: 25px;
-    font-family: 'Roboto-Bold', sans-serif;
+    font-family: 'Ubuntu-Regular', sans-serif;
     margin-right: 20px;
 }
 #navigation a:hover {
@@ -62,8 +73,8 @@ body {
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom: 2%;
-    font-family: "Roboto", sans-serif;  
-    font-size: 20px;  
+    font-family: "Roboto_Mono", sans-serif;  
+    font-size: 18px;  
 }
 
 #resume {
@@ -78,6 +89,7 @@ body {
 }
 
 a {
+    color: black;
     text-decoration: none;
 }
 a:visited {
@@ -88,6 +100,10 @@ a:hover {
     opacity: 75%;
 }
 
+b {
+    font-family: "Roboto_Mono_Regular", sans-serif;  
+}
+
 p:visited {
     color: black;
 }
@@ -96,19 +112,21 @@ p:visited {
     width: 100%;
     padding: 1.5px;
     border: 3px solid #eee;
-    margin: auto;
+    margin: 15px 0;
 }
 
 @media screen and (min-width: 800px) {
     .photo-row {
-        max-width: 100%;
+        max-width: 80%;
         height: 100%; 
         display: flex;
         flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
     }
     .photo-col {
         height: 100%;  
-        width: 49%;
+        width: 45%;
         margin: auto;
     }
 }
