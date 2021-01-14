@@ -2,9 +2,10 @@
     font-family: 'Ubuntu';
     src: url("../fonts/Ubuntu/Ubuntu-Medium.ttf");
 }
+
 @font-face {
-    font-family: 'Ubuntu-Regular';
-    src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf");
+    font-family: 'Work_Sans';
+    src: url("../fonts/Work_Sans/static/WorkSans-Regular.ttf");
 }
 
 @font-face {
@@ -50,7 +51,7 @@ body {
 }
 #navigation a {
     font-size: 25px;
-    font-family: 'Ubuntu-Regular', sans-serif;
+    font-family: 'Work_Sans', sans-serif;
     margin-right: 20px;
 }
 #navigation a:hover {
